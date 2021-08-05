@@ -1,0 +1,156 @@
+body{
+    background-color: rgb(253, 242, 242);
+}
+
+.container-wrapper{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 20%;
+    background-color: white;
+    height: 100%;
+    padding-top: 5%;
+}
+.header-section{
+  margin-left: 7%;
+  border-bottom: 4px solid black;
+  margin-right: 15%;
+}
+.header-left-button{
+    background-color: #2da562;
+    border-radius: 50px;
+}
+.header-center-text{
+    font-size: 29px;
+    
+    font-weight: bolder;
+}
+.header-center-div{
+     display: flex;
+    margin-left: 30%;
+    
+}
+.header-center-circle{
+    margin-top: 5%;
+    margin-left: 3%;
+    font-size: 20px;
+}
+.header-center-p{
+    margin-top: 4.5%;
+    margin-left: 2%;
+    color: rgb(190, 183, 183);
+}
+.add-new-list-section{
+    height: 75%;
+    width : 65%;
+    border: 1px solid silver;
+    margin-left: 13%;
+    margin-top: 5%;
+}
+.new-section-list-header::-webkit-input-placeholder{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.new-section-list-header{
+    margin-top: 2%;
+    width: 90%;
+    margin-left: 5%;
+    border-left: none !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-bottom: 0.5px solid silver !important;
+    /* border-width: 0 !important;  */
+    box-shadow: none !important;
+
+}
+.new-section-list-editor{
+   font-size:16px; 
+   margin-left: 5%;
+   margin-top: 2% ;
+   color:  rgb(179, 162, 162);;
+}
+.toolbarClassName{
+    width:100%;
+    border: 1px solid silver; 
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+.editor-div {
+   width:95%;
+   border: 1px solid silver; 
+   border-radius: 4px;
+}
+
+.editorClassName{
+    
+    height: 30vh;
+    overflow: hidden;
+}
+
+.new-section-list-bottom{
+    margin-top: 5%;
+    display: flex;
+    margin-bottom: 2%;
+    
+}
+.add-list-button{
+    background-color:#2da562;
+    color: white;
+    border-radius: 50px;
+    border : 1px solid #2da562;
+
+}
+.cancel-list-button{
+    background-color: white;
+    border : 1px solid #2da562;
+    color : #2da562;
+    border-radius: 50px;
+    margin-left: 4px;
+}
+.cancel-list-button:hover{
+    color:#2da562;
+    background-color: white;
+    border : 1px solid #2da562;
+}
+.add-list-button:hover{
+    background-color: #2da562;
+    color: white;
+    border : 1px solid #2da562;
+
+}
+
+.renderind-lists{
+    margin-left: 13%;
+    margin-top: 5%;
+} 
+
+.no-list-found{
+    margin-top: 5%;
+    margin-left: 12%;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.new-section-list-div{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.input_button-wrapper{
+  display: flex;
+}
+.input_button-wrapper > button {
+    margin-left: 2%;
+    width: 30%;
+}
+.rendered-list-wrapper {
+    margin-top: 8%;
+}

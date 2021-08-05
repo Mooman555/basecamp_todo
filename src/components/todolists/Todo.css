@@ -1,0 +1,152 @@
+
+.todo-title-circle{
+    margin-top: 1%;
+    font-size: 30px;
+    margin-left: 5%;
+}
+.todo-title-text{
+    margin-left: 1%;
+    font-size: 30px;
+    font-weight: bolder;  
+}
+.todo-title{
+    display: flex;
+}
+.todo-description{
+    margin-left: 5%;
+}
+.todo-button{
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    border:0.5px solid silver;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.display-hidden {
+    display:none;
+}
+.display-show {
+    display: block;
+}
+
+.add-todo-details-section{
+    width : 70%;
+    height: 40%;
+    border: 0.1px solid silver;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+
+.disbaled-checbox{
+ font-size: 25px;
+ cursor: pointer;
+
+}
+.todo-heading{
+    border: none !important;
+    border-width: 0 !important; 
+    box-shadow: none !important;
+  
+}
+.todo-heading :focus{
+    border: none !important;
+    border-width: 0 !important; 
+    box-shadow: none !important; 
+
+}
+.add-todo-checkbox-input{
+    display: flex;
+    margin-left: 4%;
+    margin-right: 6%;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    border-bottom: 0.1px solid rgb(226, 220, 220);
+}
+
+.todo-heading::-webkit-input-placeholder {
+    font-size: 16px;
+    font-weight: 600;
+    color :silver;
+}
+
+.todo-assign-section{
+    display: flex;
+    margin-left: 7%;
+    margin-top: 1%;
+}
+
+.todo-assign-names{
+    width: 80%;
+    border: none !important;
+    border-width: 0 !important; 
+    box-shadow: none !important;
+
+}
+.todo-assign-label{
+    margin-top: 1%;
+    width: 25%;
+}
+
+.border-bottom{
+    padding-bottom: 1%;
+    margin-right: 6%;
+    border-bottom: 0.1px solid rgb(226, 220, 220);
+}
+.margin-right{
+    margin-right: 6%;
+}
+.margin{
+    margin-left: 5%;
+}
+
+.no-list-found{
+    font-size: 16px;
+    color: black;
+}
+.render-each-todo{
+    margin-left: 5%;
+}
+
+.outer-parent-wrapper{
+    padding-bottom: 3%;
+}
+
+.editor-wrapper-div{
+    margin-top: 1%;
+    margin-left: 2%;
+    color: silver;
+    cursor: pointer;
+}
+.todo-assign-datepicker{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+    
+}
+.todo-assign-datepicker > input {
+    margin: 5px;
+}
+
+.todo-assign-single-datepicker {
+    display: flex;
+}
+
+.date-input {
+    margin-top: 2px;
+    background-color: transparent;
+    margin-top: -10px;
+}
+
+.date-input :active{
+    background-color: transparent;
+}
+
+.no-due-text{
+    margin-left: 3%;
+    margin-top: -1%;
+    font-size: 16px;
+    font-weight: bolder;
+    color :silver;
+}

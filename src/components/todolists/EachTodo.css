@@ -1,0 +1,47 @@
+.todo-parent{
+    display: flex;
+    
+}
+.each-todo-checkbox{
+    font-size: 25px;
+    cursor: pointer;
+}
+.each-todo-description{
+    margin-top: 0.8%;
+    margin-left: 1%;
+    cursor: pointer;
+
+}
+
+.each-todo-file-icon{
+    color:white;
+    fill: silver;
+    font-size: 18px;
+    margin-left: 1%;
+    margin-top: 1%;
+    cursor: pointer;
+
+}
+.each-todo-date-icon{
+    color:white;
+    fill: orange;
+    font-size: 22px;
+    margin-left: 1%;
+    margin-top: 0.8%;
+    cursor: pointer;
+
+}
+.each-todo-dueDate{
+    margin-left: 1%;
+    margin-top: 0.8%;
+    cursor: pointer;
+
+}
+.each-todo-avatar-icon{
+    fill: rgb(77, 58, 24);
+    font-size: 22px;
+    margin-left: 1%;
+    margin-top: 0.8%;
+    cursor: pointer;
+
+}
