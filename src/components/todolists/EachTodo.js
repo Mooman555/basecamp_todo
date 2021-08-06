@@ -23,7 +23,7 @@ const EachTodo = (props) => {
                 <MdDateRange className="each-todo-date-icon"/>
                 <p className="each-todo-dueDate">{props.todoDueDate}</p>
                 <AiFillMediumCircle className="each-todo-avatar-icon"/>
-                <p className="each-todo-description">{props.todoName}</p>
+                <p className="each-todo-description">{props.todoAssignedTo}</p>
                 </Form.Group>
 
         </div>

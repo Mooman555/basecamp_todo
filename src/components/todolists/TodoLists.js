@@ -38,7 +38,8 @@ const TodoLists = (props) => {
   const addTodoDetailsHandler = () => {
     setSingleTodoArray((prevTodoListArray) => [...prevTodoListArray,
       { 
-       assignedTo : todoTitle,
+       todoTitle : todoTitle,
+       assignedTo : todoAssignNames,
        notify : todoNotifyNames,
        dueDate : radioState == 3 ? "no due date" : dateState,
        extraDetails : editorValue
@@ -115,7 +116,8 @@ const TodoLists = (props) => {
             <Form.Group  key={index}>
               <div className="render-each-todo">
                 <EachTodo
-                  todoName={todoDetails.assignedTo}
+                  todoName={todoDetails.todoTitle}
+                  todoAssignedTo = {todoDetails.assignedTo}
                   todoNotify={todoDetails.notify}
                   todoDueDate={todoDetails.dueDate}
                   todoDescription={todoDetails.extraDetails}
